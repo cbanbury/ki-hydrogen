@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore ."
+    "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "deploy": "npm run scripts/deploy.js"
   },
   "dependencies": {
     "@fontsource/titillium-web": "^4.5.9",
