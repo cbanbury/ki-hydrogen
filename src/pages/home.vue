@@ -43,7 +43,7 @@
                 <div class="col-8">
                   <p>
                     ...are being emitted into the atmosphere from
-                    the <strong>hydrogen</strong> produced globally.
+                    <strong>hydrogen</strong> produced directly <strong>from fossil fuels</strong>.
                     Stay tuned to see what we're doing to make this stop.
                   </p>
                 </div>
