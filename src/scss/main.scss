@@ -1,0 +1,117 @@
+@import "~@fontsource/titillium-web/400.css";
+@import "~@fontsource/titillium-web/700.css";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+
+@import "~bootstrap";
+
+
+
+@import "~vue-cookieconsent-component/src/scss/cookie-consent-variables";
+@import "~vue-cookieconsent-component/src/scss/cookie-consent-bottom";
+@import "~vue-cookieconsent-component/src/scss/cookie-consent-transition";
+
+$cookieconstent-compliance-background: black !important;
+$cookieconstent-background: rgba(black, 0.8);
+// $cookieconstent-compliance-border: 1px;
+@import "~vue-cookieconsent-component/src/scss/cookie-consent";
+
+h2 {
+  font-size: 1.5rem !important;
+}
+
+.cookie-consent-message {
+  color: $light !important;
+}
+
+.cookie-consent-compliance {
+  // background-color: darkgreen !important;
+}
+
+.cookie-consent-compliance:hover {
+  background-color: darkgreen !important;
+  border-color: darkgreen !important;
+}
+
+.cookie-consent {
+  padding: 0px;
+}
+
+body, html {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+  color: #343A3F;
+  // font-weight: 600 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url('@/assets/background.jpg');
+  background-color: rgba(0, 0, 0, .35);
+  background-blend-mode: darken;
+
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-cta {
+  border: 0px;
+  border-radius: 0;
+}
+
+// hide background image on small screens
+@media(max-width: 767.98px) {
+  .bg-image {
+    display: none;
+  }
+}
+
+// bring main card into focus in centre of screen on large screen
+@media (min-width: 767.98px) {
+  .home-cta {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+// extend carbon ticker beyond boundaries of parent
+.carbon-ticker {
+  border: 0px;
+  border-radius: 0px;
+  width: 120%;
+  margin-left: -10%;
+}
+
+.btn-dark:hover {
+  background-color: darkgreen;
+  border-color: darkgreen;
+}
+
+a {
+  color: #343A3F;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+
+button {
+  border-radius: 20px !important;
+}
+
+input {
+  border-radius: 0px !important;
+}
