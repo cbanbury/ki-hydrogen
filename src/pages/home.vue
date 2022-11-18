@@ -35,7 +35,7 @@
                     </div>
                   </div>
                   <p class="pt-2 text-muted">
-                    kilograms of CO2e
+                    tonnes of carbon dioxide
                   </p>
                 </div>
               </div>
@@ -43,7 +43,7 @@
                 <div class="col-8">
                   <p>
                     ...are being emitted into the atmosphere from
-                    the <strong>hydrogen</strong> we produce today.
+                    the <strong>hydrogen</strong> produced globally.
                     Stay tuned to see what we're doing to make this stop.
                   </p>
                 </div>
@@ -114,10 +114,10 @@ export default {
   },
   mounted() {
     this.carbonCount = Tick.DOM.create(this.$refs.tick, {
-      value: 1,
+      value: 0,
       didInit: (tick) => {
         Tick.helper.interval(() => {
-          tick.value += 2980;
+          tick.value += 28;
         }, 1000);
       },
     });
