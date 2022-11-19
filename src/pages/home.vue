@@ -1,6 +1,6 @@
 <template>
   <div>
-    <cookie-consent/>
+    <cookie-consent />
     <div class="bg-image"></div>
     <div class="container">
       <div class="row">
@@ -103,6 +103,7 @@
 </template>
 
 <script>
+import { gsap, MotionPathPlugin } from 'gsap/all';
 import Tick from '@pqina/flip';
 import Logo from '../components/logo.vue';
 import '@pqina/flip/dist/flip.min.css';
@@ -113,6 +114,19 @@ export default {
     Logo,
   },
   mounted() {
+    gsap.registerPlugin(MotionPathPlugin);
+    gsap.to('.logo-electron', {
+      duration: 3.5,
+      repeat: -1,
+      yoyo: false,
+      ease: 'none',
+      motionPath: {
+        path: '.logo-shell',
+        align: '.logo-shell',
+        alignOrigin: [0.5, 0.5],
+      },
+    });
+
     this.carbonCount = Tick.DOM.create(this.$refs.tick, {
       value: 0,
       didInit: (tick) => {

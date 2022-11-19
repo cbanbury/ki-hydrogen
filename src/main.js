@@ -26,7 +26,7 @@ const router = createRouter({
 
 const app = createApp({});
 app.component('FontAwesomeIcon', FontAwesomeIcon);
-app.component('cookie-consent', cookieconsent);
+app.component('CookieConsent', cookieconsent);
 app.use(router);
 
 app.mount('#app');
