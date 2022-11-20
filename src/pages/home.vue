@@ -65,10 +65,14 @@
                 /></a>
               </div>
               <div class="col-lg-1 col-2">
+                <a
+                  href="https://www.facebook.com/element.one.hydrogen.systems"
+                  target="_blank"
+                >
                 <font-awesome-icon
                   class="fa-2xl pr-4"
                   icon="fa-brands fa-square-facebook"
-                />
+                /></a>
               </div>
               <div class="col-lg-1 col-2">
                 <a
@@ -121,6 +125,8 @@ export default {
       yoyo: false,
       ease: 'none',
       motionPath: {
+        start: 0.14,
+        end: 1.14,
         path: '.logo-shell',
         align: '.logo-shell',
         alignOrigin: [0.5, 0.5],
