@@ -11,7 +11,7 @@ npm run build
 cd dist
 
 # if you are deploying to a custom domain
-echo 'element-one.co.uk' > CNAME
+echo 'ki-hydrogen.com' > CNAME
 
 git init
 git add -A
@@ -21,6 +21,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:cbanbury/element-one.git main:gh-pages
+git push -f git@github.com:cbanbury/ki-hydrogen.git main:gh-pages
 
 cd -

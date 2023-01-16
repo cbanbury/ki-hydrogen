@@ -1,4 +1,4 @@
-# element-one
+# ki-hydrogen
 
 ## Project setup
 ```

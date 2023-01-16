@@ -9,14 +9,14 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 import { faSquareFacebook, faSquareInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import home from './pages/home.vue';
+import landing from './pages/landing.vue';
 
 library.add(faSquareFacebook);
 library.add(faSquareInstagram);
 library.add(faLinkedin);
 
 const routes = [
-  { path: '/', component: home },
+  { path: '/', component: landing },
 ];
 
 const router = createRouter({
