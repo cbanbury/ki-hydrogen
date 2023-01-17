@@ -52,7 +52,7 @@
           <img
             class="img-fluid"
             alt="Wind Power"
-            src="https://ik.imagekit.io/elementone/wind-power.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673959723160"
+            src="https://ik.imagekit.io/elementone/wind-power.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673962217545"
           />
         </div>
       </div>
