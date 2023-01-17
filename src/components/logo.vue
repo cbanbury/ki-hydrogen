@@ -5,45 +5,7 @@
     height="300"
     viewBox="0 0 264.58333 264.58334"
     version="1.1"
-    inkscape:export-filename="/Users/carl/Desktop/kih2_horizontal_no_shadow.png"
-    inkscape:export-xdpi="0.096000001"
-    inkscape:export-ydpi="0.096000001"
-    inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
-    sodipodi:docname="kih2_horizontal_green.svg"
-    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:svg="http://www.w3.org/2000/svg"
   >
-    <sodipodi:namedview
-      id="namedview7"
-      pagecolor="#ffffff"
-      bordercolor="#666666"
-      borderopacity="1.0"
-      inkscape:pageshadow="2"
-      inkscape:pageopacity="0.0"
-      inkscape:pagecheckerboard="0"
-      inkscape:document-units="mm"
-      showgrid="false"
-      units="px"
-      showguides="true"
-      inkscape:guide-bbox="true"
-      inkscape:zoom="0.34656358"
-      inkscape:cx="346.25681"
-      inkscape:cy="559.78184"
-      inkscape:window-width="1440"
-      inkscape:window-height="774"
-      inkscape:window-x="0"
-      inkscape:window-y="25"
-      inkscape:window-maximized="1"
-      inkscape:current-layer="layer1"
-    >
-      <sodipodi:guide
-        id="guide3342"
-        position="-37.408961,-82.785588"
-        orientation="0,-1"
-      />
-    </sodipodi:namedview>
     <defs
       id="defs2"
     >

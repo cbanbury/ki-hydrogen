@@ -110,7 +110,7 @@
     <div class="parallax"></div>
     <div class="container mt-4 mb-4">
       <div class="row">
-        <div class="col-mx-auto">
+        <div class="col-12">
           <p class="text-center callout">
             Existing green hydrogen is
             <br />too <strong>energy intensive.</strong>
