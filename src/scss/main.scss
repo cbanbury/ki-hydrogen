@@ -52,7 +52,11 @@ h3 {
 }
 
 .callout strong {
-  color: $alert-color !important
+  color: $alert-color !important;
+}
+
+.alert-small {
+  color: $alert-color !important;
 }
 
 // cookie consent
@@ -74,21 +78,6 @@ h3 {
 .cookie-consent {
   padding: 0px;
 }
-
-// .bg-image {
-//   /* The image used */
-//   background-image: url('https://ik.imagekit.io/elementone/h-ng-c-h-i-UgUeJnWlV_w-unsplash.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673274514797');
-//   background-color: rgba(0, 0, 0, .35);
-//   background-blend-mode: darken;
-
-//   /* Full height */
-//   height: 250px;
-
-//   /* Center and scale the image nicely */
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
 
 .home-cta {
   background-color: $background-color !important;
@@ -145,7 +134,7 @@ input {
 
 .parallax {
   /* The image used */
-  background-image: url('https://ik.imagekit.io/elementone/background-image.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1673962746686');
+  background-image: url('https://ik.imagekit.io/elementone/background-image.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1673965403739');
 
   /* Set a specific height */
   min-height: 150px;

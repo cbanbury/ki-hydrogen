@@ -52,7 +52,9 @@
           <img
             class="img-fluid"
             alt="Wind Power"
-            src="https://ik.imagekit.io/elementone/wind-power.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673962217545"
+            width="900"
+            height="598"
+            src="https://ik.imagekit.io/elementone/wind-power.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673965388575"
           />
         </div>
       </div>
@@ -98,8 +100,8 @@
               <span data-view="flip"></span>
             </div>
           </div>
-          <p class="pt-2 text-muted">
-            tonnes of carbon dioxide
+          <p class="pt-2">
+            <strong>tonnes of carbon dioxide</strong>
           </p>
           <p>have been emitted into the atmosphere from today's grey hydrogen.</p>
         </div>
@@ -146,13 +148,15 @@
         </div>
         <div class="col-sm-12 col-md-6 text-md-end text-center">
           <img
-            width="128px"
+            width="128"
+            height="128"
             alt="recycle"
             src="https://ik.imagekit.io/elementone/recycle.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960026936"
             class="mx-auto img-responsive"
           />
           <img
-            width="128px"
+            width="128"
+            height="128"
             alt="electrolysis"
             src="https://ik.imagekit.io/elementone/electrolysis.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960026912"
             class="mx-auto img-responsive"
@@ -174,6 +178,8 @@
           </h2>
           <div class="col-mx-auto text-center">
             <img
+              width="200"
+              height="200"
               class="img-fluid faces"
               alt="Michael Stanton"
               src="https://ik.imagekit.io/elementone/michael.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960080118"
@@ -200,6 +206,8 @@
           </h2>
           <div class="col-mx-auto text-center">
             <img
+              width="200"
+              height="200"
               class="img-fluid faces"
               alt="Koji Muto"
               src="https://ik.imagekit.io/elementone/koji.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960079745"
@@ -226,6 +234,8 @@
           </h2>
           <div class="col-mx-auto text-center">
             <img
+              width="200"
+              height="200"
               class="img-fluid faces"
               alt="Carl Banbury"
               src="https://ik.imagekit.io/elementone/carl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960079489"
