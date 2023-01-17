@@ -4,36 +4,6 @@
     <div class="card home-cta text-center shadow">
       <Logo />
       <div style="position: relative; top: -40px;">
-        <!-- <div class="row justify-content-center">
-              <div class="col-lg-2 col-2">
-                <a
-                  href=""
-                  target="_blank"
-                ><font-awesome-icon
-                  class="fa-xl"
-                  icon="fa-brands fa-linkedin"
-                /></a>
-              </div>
-              <div class="col-lg-2 col-2">
-                <a
-                  href=""
-                  target="_blank"
-                >
-                <font-awesome-icon
-                  class="fa-xl pr-4"
-                  icon="fa-brands fa-square-facebook"
-                /></a>
-              </div>
-              <div class="col-lg-2 col-2">
-                <a
-                  href=""
-                  target="_blank"
-                ><font-awesome-icon
-                  class="fa-xl mr-2"
-                  icon="fa-brands fa-square-instagram"
-                /></a>
-              </div>
-            </div> -->
         <a
           class="mb-2 mt-2 btn btn-dark"
           href="https://www.linkedin.com/company/ki-hydrogen"
@@ -44,8 +14,10 @@
         </a>
       </div>
     </div>
-    <div class="parallax-lg"></div>
-    <!-- <div class="parallax"></div> -->
+    <div
+      class="parallax"
+      style="min-height: 300px !important"
+    ></div>
     <div class="container pt-4">
       <div class="row pt-4">
         <div class="col">
@@ -62,16 +34,25 @@
           <h3>Ki</h3>
           <p><i>/kee/ [noun]</i></p>
           <p align="justify">
-            Ki in Japanese, or qi (氣) in Chinese means energy and where the character for hydrogen originates from (氢). Hydrogen is quite literally universal and an abundant source of energy that has been hyped for decades as the answer to a clean, carbon free alternative to our dependency on fossil fuels through splitting water (H2O) into hydrogen and oxygen.
+            Ki in Japanese, or qi (氣) in Chinese means energy and
+            is where the character for hydrogen originates from (氢).
+            Hydrogen is quite literally universal and an abundant
+            source of energy that has been hyped for decades as the answer to a clean,
+            carbon free alternative to our dependency on fossil fuels through splitting
+            water (H2O) into hydrogen and oxygen.
           </p>
           <p align="justify">
-            Unfortunately, just to produce enough hydrogen for the current demand would require more solar and wind power than exists worldwide today. Our mission is to have a real tangible impact towards net zero by tackling our existing problem with hydrogen.
+            Unfortunately, just to produce enough hydrogen for the current demand would
+            require more solar and wind power than exists worldwide today. Our mission is
+            to have a real tangible impact towards net zero by tackling our existing problem
+            with hydrogen.
           </p>
         </div>
         <div class="col-sm-12 col-md-6 text-center text-md-end">
           <img
             class="img-fluid"
-            src="/images/wind-turbine.jpg"
+            alt="Wind Power"
+            src="https://ik.imagekit.io/elementone/wind-power.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1673959723160"
           />
         </div>
       </div>
@@ -87,7 +68,7 @@
           <h2>Far from green.</h2>
         </div>
       </div>
-      <div class="row pt-2">
+      <div class="row pt-2 mb-4">
         <div class="col-sm-12 col-md-6 text-center">
           <p class="text-center callout">
             Over
@@ -125,7 +106,7 @@
       </div>
     </div>
     <div class="parallax"></div>
-    <div class="container mt-2">
+    <div class="container mt-4 mb-4">
       <div class="row">
         <div class="col-mx-auto">
           <p class="text-center callout">
@@ -140,7 +121,7 @@
       </div>
     </div>
     <div class="parallax"></div>
-    <div class="container mt-2">
+    <div class="container mt-4">
       <div class="row justify-content-md-end">
         <div class="col-auto">
           <h1>Our Technology</h1>
@@ -154,22 +135,26 @@
       <div class="row pt-2">
         <div class="col-md-6 col-sm-12">
           <p align="justify">
-            The single biggest factor in the levelised cost of green hydrogen is the price of electricity.
-            Instead of using water, our hydrogen is organically sourced from <strong>waste biomass</strong>.
-            Fundamentally, this reduces the energy requirement by up to 75% compared to water.
-            We provide <strong>a realistic path</strong> to cost competitive green hydrogen without
-            relying on subsidies or curtailed electricity prices.
+            The single biggest factor in the levelised cost of green hydrogen
+            is the price of electricity. Instead of using water, our hydrogen
+            is organically sourced from <strong>waste biomass</strong>.
+            Fundamentally, this reduces the energy requirement by up to
+            75% compared to water. We provide <strong>a realistic path</strong>
+            to cost competitive green hydrogen without relying on subsidies
+            or curtailed electricity prices.
           </p>
         </div>
         <div class="col-sm-12 col-md-6 text-md-end text-center">
           <img
             width="128px"
-            src="/images/recycle.png"
+            alt="recycle"
+            src="https://ik.imagekit.io/elementone/recycle.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960026936"
             class="mx-auto img-responsive"
           />
           <img
             width="128px"
-            src="/images/electrolysis.png"
+            alt="electrolysis"
+            src="https://ik.imagekit.io/elementone/electrolysis.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960026912"
             class="mx-auto img-responsive"
           />
         </div>
@@ -181,17 +166,25 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-12">
-          <h4 class="text-center">
+          <h2 class="text-center">
             Michael Stanton, PhD
-          </h4>
-          <h4 class="text-center">
+          </h2>
+          <h2 class="text-center">
             <strong>CTO</strong>
-          </h4>
+          </h2>
           <div class="col-mx-auto text-center">
-            <img class="img-fluid faces" src="/images/team/michael.png">
+            <img
+              class="img-fluid faces"
+              alt="Michael Stanton"
+              src="https://ik.imagekit.io/elementone/michael.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960080118"
+            />
           </div>
-          <p align="justify" class="pt-2">
-            Michael has a strong <strong>scientific</strong> and <strong>research</strong> background,
+          <p
+            align="justify"
+            class="pt-2"
+          >
+            Michael has a strong <strong>scientific</strong>
+            and <strong>research</strong> background,
             with a varied academic career covering materials engineering,
             chemistry, and a PhD in physics/nanotechnology.
             His recent work focused on novel methods for generation
@@ -199,16 +192,23 @@
           </p>
         </div>
         <div class="col-md-4 col-sm-12">
-          <h4 class="text-center">
+          <h2 class="text-center">
             Koji Muto
-          </h4>
-          <h4 class="text-center">
+          </h2>
+          <h2 class="text-center">
             <strong>CEO</strong>
-          </h4>
+          </h2>
           <div class="col-mx-auto text-center">
-            <img class="img-fluid faces" src="/images/team/koji.png">
+            <img
+              class="img-fluid faces"
+              alt="Koji Muto"
+              src="https://ik.imagekit.io/elementone/koji.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960079745"
+            />
           </div>
-          <p align="justify" class="pt-2">
+          <p
+            align="justify"
+            class="pt-2"
+          >
             Koji has experience leading teams in <strong>deep-tech</strong>.
             He covered <strong>€170M</strong> worth  of scope at one of the <strong>largest
               hydrogen projects</strong> in Europe. He was an early hire at a
@@ -218,17 +218,25 @@
           </p>
         </div>
         <div class="col-md-4 col-sm-12">
-          <h4 class="text-center">
+          <h2 class="text-center">
             Carl Banbury, PhD
-          </h4>
-          <h4 class="text-center">
+          </h2>
+          <h2 class="text-center">
             <strong>COO</strong>
-          </h4>
+          </h2>
           <div class="col-mx-auto text-center">
-            <img class="img-fluid faces" src="/images/team/carl.png">
+            <img
+              class="img-fluid faces"
+              alt="Carl Banbury"
+              src="https://ik.imagekit.io/elementone/carl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960079489"
+            />
           </div>
-          <p align="justify" class="pt-2">
-            Carl has over <strong>ten years</strong> of <strong>startup experience</strong> and a multidisciplinary PhD with
+          <p
+            align="justify"
+            class="pt-2"
+          >
+            Carl has over <strong>ten years</strong> of
+            <strong>startup experience</strong> and a multidisciplinary PhD with
             hands on expertise in <strong>nanotechnology</strong>, machine learning, spectroscopy,
             and neuroscience. He specialises in bringing to life blue-sky ideas;
             <strong>developing IP</strong>, MVPs and robust scalable solutions.
@@ -240,7 +248,7 @@
       <div class="container-fluid">
         <span class="navbar-text">© 2023 Ki Hydrogen Ltd</span>
       </div>
-</nav>
+    </nav>
   </div>
 </template>
 
@@ -250,7 +258,7 @@ import Logo from '../components/logo.vue';
 import '@pqina/flip/dist/flip.min.css';
 
 export default {
-  name: 'Landing',
+  name: 'LandingPage',
   components: {
     Logo,
   },
