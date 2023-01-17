@@ -50,6 +50,7 @@
         </div>
         <div class="col-sm-12 col-md-6 text-center text-md-end">
           <img
+            rel="preconnect"
             class="img-fluid"
             alt="Wind Power"
             width="900"
@@ -148,6 +149,7 @@
         </div>
         <div class="col-sm-12 col-md-6 text-md-end text-center">
           <img
+            rel="preconnect"
             width="128"
             height="128"
             alt="recycle"
@@ -155,6 +157,7 @@
             class="mx-auto img-responsive"
           />
           <img
+            rel="preconnect"
             width="128"
             height="128"
             alt="electrolysis"
@@ -178,6 +181,7 @@
           </h2>
           <div class="col-mx-auto text-center">
             <img
+              rel="preconnect"
               width="200"
               height="200"
               class="img-fluid faces"
@@ -206,6 +210,7 @@
           </h2>
           <div class="col-mx-auto text-center">
             <img
+              rel="preconnect"
               width="200"
               height="200"
               class="img-fluid faces"
@@ -234,6 +239,7 @@
           </h2>
           <div class="col-mx-auto text-center">
             <img
+              rel="preconnect"
               width="200"
               height="200"
               class="img-fluid faces"
