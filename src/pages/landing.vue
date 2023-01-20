@@ -168,7 +168,7 @@
       </div>
       <div class="row mt-4">
         <div class="col-auto">
-          <h1>Meet the team</h1>
+          <h1>Meet the Team</h1>
         </div>
       </div>
       <div class="row">
@@ -244,7 +244,7 @@
               height="200"
               class="img-fluid faces"
               alt="Carl Banbury"
-              src="https://ik.imagekit.io/elementone/carl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960079489"
+              src="https://ik.imagekit.io/elementone/carl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674223504686"
             />
           </div>
           <p
