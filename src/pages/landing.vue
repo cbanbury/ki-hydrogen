@@ -4,6 +4,7 @@
     <div class="card home-cta text-center shadow">
       <Logo />
       <div style="position: relative; top: -40px;">
+        <SocialIcons />
         <a
           class="mb-2 mt-2 btn btn-dark"
           href="https://www.linkedin.com/company/ki-hydrogen"
@@ -271,12 +272,14 @@
 <script>
 import Tick from '@pqina/flip';
 import Logo from '../components/logo.vue';
+import SocialIcons from '../components/social-icons.vue';
 import '@pqina/flip/dist/flip.min.css';
 
 export default {
   name: 'LandingPage',
   components: {
     Logo,
+    SocialIcons,
   },
   mounted() {
     this.carbonCount = Tick.DOM.create(this.$refs.tick, {
