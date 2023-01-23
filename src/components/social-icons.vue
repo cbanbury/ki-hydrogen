@@ -4,7 +4,7 @@
       <a
         href="mailto:info@ki-hydrogen.com"
       ><font-awesome-icon
-        class="fa-xl"
+        class="fa-2xl"
         icon="fa-solid fa-envelope"
       /></a>
     </div>
@@ -13,7 +13,7 @@
         href="https://www.linkedin.com/company/ki-hydrogen"
         target="_blank"
       ><font-awesome-icon
-        class="fa-xl"
+        class="fa-2xl"
         icon="fa-brands fa-linkedin"
       /></a>
     </div>
