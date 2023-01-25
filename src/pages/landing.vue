@@ -167,6 +167,21 @@
           />
         </div>
       </div>
+      <div class="row justify-content-center mt-4">
+        <div class="col-md-6 col-12">
+          <div class="embed-responsive ratio ratio-16x9" style="max-width: 560px; max-height: 315px;">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.youtube.com/embed/GX1rg9Dh0fM"
+            title="YouTube video player"
+            frameborder="0"
+            style="max-width: 560px; max-height: 315px;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+          </div>
+        </div>
+      </div>
       <div class="row mt-4">
         <div class="col-auto">
           <h1>Meet the Team</h1>
