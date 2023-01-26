@@ -300,11 +300,12 @@ export default {
     window.onscroll = function() {moveCTA()};
 
     function moveCTA() {
-      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      if (document.body.scrollTop >= 210 || document.documentElement.scrollTop >= 210) {
+        document.getElementById('homecta').style.position = 'fixed';
         document.getElementById('homecta').style.top = '-60px';
       } else {
         document.getElementById('homecta').style.top = '150px';
-        document.getElementsByClassName('body').style.padding = '90px';
+        document.getElementById('homecta').style.position = 'absolute';
       }
     }
 
