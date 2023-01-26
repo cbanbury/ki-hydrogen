@@ -1,9 +1,9 @@
 <template>
   <div>
     <cookie-consent />
-    <div class="card home-cta text-center shadow" id="homecta">
+    <div class="home-cta text-center shadow" id="homecta">
       <Logo />
-      <div style="position: relative; top: -40px;">
+      <div style="position: relative; top: -50px;">
         <SocialIcons />
         <a
           class="mb-2 mt-2 btn btn-dark"
@@ -297,6 +297,17 @@ export default {
     SocialIcons,
   },
   mounted() {
+    window.onscroll = function() {moveCTA()};
+
+    function moveCTA() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById('homecta').style.top = '-60px';
+      } else {
+        document.getElementById('homecta').style.top = '150px';
+        document.getElementsByClassName('body').style.padding = '90px';
+      }
+    }
+
     this.carbonCount = Tick.DOM.create(this.$refs.tick, {
       value: 0,
       didInit: (tick) => {

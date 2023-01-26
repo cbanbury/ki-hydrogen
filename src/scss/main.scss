@@ -87,20 +87,18 @@ h3 {
 
 // bring main card into focus in centre of screen
 .home-cta {
+  // padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+  transition: 0.5s; /* Adds a transition effect when the padding is decreased */
+  overflow: hidden;
   background-color: $background-color !important;
   border: 0px;
   border-radius: 0;
-  position: absolute;
+  position: fixed;
   top: 150px;
+  z-index: 99;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-
-.container:not([data-scroll='0']) {
-  .home-cta {
-    // top: -150px;
-    position: fixed; 
-  }
+  height: 340px;
 }
 
 .footer {
