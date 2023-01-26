@@ -160,7 +160,7 @@ input {
 }
 
 // disable parallax on mobile
-@media only screen and (max-device-width: 1366px) {
+@media (any-pointer: coarse) {
   .parallax {
     background-attachment: scroll;
   }
