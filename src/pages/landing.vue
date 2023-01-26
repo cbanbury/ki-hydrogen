@@ -1,7 +1,7 @@
 <template>
   <div>
     <cookie-consent />
-    <div class="card home-cta text-center shadow">
+    <div class="card home-cta text-center shadow" id="homecta">
       <Logo />
       <div style="position: relative; top: -40px;">
         <SocialIcons />

@@ -79,18 +79,28 @@ h3 {
   padding: 0px;
 }
 
+// .home-cta {
+//   background-color: $background-color !important;
+//   border: 0px;
+//   border-radius: 0;
+// }
+
+// bring main card into focus in centre of screen
 .home-cta {
   background-color: $background-color !important;
   border: 0px;
   border-radius: 0;
-}
-
-// bring main card into focus in centre of screen
-.home-cta {
   position: absolute;
   top: 150px;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.container:not([data-scroll='0']) {
+  .home-cta {
+    // top: -150px;
+    position: fixed; 
+  }
 }
 
 .footer {
