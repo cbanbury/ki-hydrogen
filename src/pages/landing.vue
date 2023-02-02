@@ -1,8 +1,8 @@
 <template>
   <div>
     <cookie-consent />
-    <div class="home-cta text-center shadow" id="homecta">
-      <Logo />
+    <div class="home-cta col-4 col-offset-4 text-center shadow" id="homecta">
+      <img height="300" width="300" src="https://ik.imagekit.io/elementone/kih2_horizontal_green.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675296186591">
       <div style="position: relative; top: -50px;">
         <SocialIcons />
         <a
@@ -17,7 +17,7 @@
     </div>
     <div
       class="parallax"
-      style="min-height: 300px !important"
+      style="margin-top:-340px !important; min-height: 300px !important"
     ></div>
     <div class="container pt-4">
       <div class="row pt-4">
@@ -172,7 +172,7 @@
           <div class="embed-responsive ratio ratio-16x9" style="max-width: 560px; max-height: 315px;">
           <iframe
             class="embed-responsive-item"
-            src="https://www.youtube.com/embed/GX1rg9Dh0fM"
+            src="https://www.youtube.com/embed/GX1rg9Dh0fM?wmode=opaque"
             title="YouTube video player"
             frameborder="0"
             style="max-width: 560px; max-height: 315px;"
@@ -286,29 +286,15 @@
 
 <script>
 import Tick from '@pqina/flip';
-import Logo from '../components/logo.vue';
 import SocialIcons from '../components/social-icons.vue';
 import '@pqina/flip/dist/flip.min.css';
 
 export default {
   name: 'LandingPage',
   components: {
-    Logo,
     SocialIcons,
   },
   mounted() {
-    window.onscroll = function() {moveCTA()};
-
-    function moveCTA() {
-      if (document.body.scrollTop >= 210 || document.documentElement.scrollTop >= 210) {
-        document.getElementById('homecta').style.position = 'fixed';
-        document.getElementById('homecta').style.top = '-60px';
-      } else {
-        document.getElementById('homecta').style.top = '150px';
-        document.getElementById('homecta').style.position = 'absolute';
-      }
-    }
-
     this.carbonCount = Tick.DOM.create(this.$refs.tick, {
       value: 0,
       didInit: (tick) => {
