@@ -172,7 +172,7 @@
           <div class="embed-responsive ratio ratio-16x9" style="max-width: 560px; max-height: 315px;">
           <iframe
             class="embed-responsive-item"
-            src="https://www.youtube.com/embed/GX1rg9Dh0fM?wmode=opaque"
+            src="https://www.youtube.com/embed/6MJkBJTG99o?wmode=opaque"
             title="YouTube video player"
             frameborder="0"
             style="max-width: 560px; max-height: 315px;"
@@ -202,7 +202,7 @@
               height="200"
               class="img-fluid faces"
               alt="Michael Stanton"
-              src="https://ik.imagekit.io/elementone/michael.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960080118"
+              src="https://ik.imagekit.io/elementone/New_Headshot_Michael.png?updatedAt=1680279767822"
             />
           </div>
           <p
@@ -231,19 +231,17 @@
               height="200"
               class="img-fluid faces"
               alt="Koji Muto"
-              src="https://ik.imagekit.io/elementone/koji.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673960079745"
+              src="https://ik.imagekit.io/elementone/New_Headshot_Koji.png?updatedAt=1680279726140"
             />
           </div>
           <p
             align="justify"
             class="pt-2"
           >
-            Koji has experience leading teams in <strong>deep-tech</strong>.
-            He covered <strong>€170M</strong> worth  of scope at one of the <strong>largest
-              hydrogen projects</strong> in Europe. He was an early hire at a
-            small modular nuclear reactor startup (<strong>€3M</strong> seed raised)
-            and the first hire at a direct-air-capture
-            startup (<strong>€1.25M</strong> pre-seed raised).
+          Koji has experience scaling <strong>deep-tech</strong>. He drove development for an
+          <strong>$800M</strong> hydrogen project at the largest refinery in the UK. He was an
+          early hire at a small modular nuclear reactor startup (<strong>$3M</strong> seed raised)
+          and at a direct-air-capture startup (<strong>$1.25M</strong> pre-seed raised).
           </p>
         </div>
         <div class="col-md-4 col-sm-12">
@@ -260,7 +258,7 @@
               height="200"
               class="img-fluid faces"
               alt="Carl Banbury"
-              src="https://ik.imagekit.io/elementone/carl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1674223504686"
+              src="https://ik.imagekit.io/elementone/New_Headshot_Carl.png?updatedAt=1680279748976"
             />
           </div>
           <p
