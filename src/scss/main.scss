@@ -57,11 +57,12 @@ body, html {
 // headers
 h1 {
   font-weight: 700 !important;
+  font-size: 2rem !important;
   // color: $primary-color;
 }
 
 h2 {
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
   font-weight: 500 !important;
 }
 
@@ -189,6 +190,8 @@ input {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .tech-highlight-block .card {
