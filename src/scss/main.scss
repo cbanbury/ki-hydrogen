@@ -16,6 +16,7 @@ $primary-color: #004d40ff;
 $alert-color: #b45f06;
 $text-color: #343A3F;
 $background-color: #e9ecefff;
+$accent-color: #69A64E;
 
 // main
 body, html {
@@ -30,20 +31,51 @@ body, html {
   box-sizing: border-box;
 }
 
+.header-gradient {
+  background: linear-gradient($accent-color, $primary-color);
+  height: 340px;
+  margin-top: -340px;
+}
+
+.jumbotron {
+  background: $primary-color;
+  color: $background-color !important;
+}
+
+.jumbotron .h1 {
+  color: $background-color !important;
+}
+
+.header {
+  color: $primary-color;
+}
+
+.header-negative {
+  color: $background-color;
+}
+
 // headers
 h1 {
   font-weight: 700 !important;
-  color: $primary-color !important;
+  // color: $primary-color;
 }
 
 h2 {
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
+  font-weight: 500 !important;
 }
 
 h3 {
   color: $primary-color !important;
 }
 
+.fa-circle-play {
+  color: $background-color;
+}
+
+.fa-circle-play:hover {
+  color: $accent-color;
+}
 
 .callout {
   font-weight: 700 !important;
@@ -132,10 +164,43 @@ input {
   border-radius: 0px !important;
 }
 
+.energy-block {
+  background-image: url('https://ik.imagekit.io/elementone/linus-nylund-At_r0TuqL8o-unsplash.jpg?updatedAt=1686068937303');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.energy-block .card {
+  border-radius: 0;
+  border: none;
+  background-color: rgba($white, 0.8);
+  color: $text-color;
+}
+
+.tech-highlight-block {
+  background-image: url('https://ik.imagekit.io/elementone/sergei-a--heLWtuAN3c-unsplash.jpg?updatedAt=1686065374948');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.tech-highlight-block .card {
+  border-radius: 0;
+  border: none;
+  background-color: rgba($white, 0.8);
+  color: $text-color;
+}
+
 .parallax {
   /* The image used */
   background-image: url('https://ik.imagekit.io/elementone/background-image.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1673965403739');
-
   /* Set a specific height */
   min-height: 150px;
 
@@ -167,4 +232,19 @@ input {
 // Usage
 .container {
   @include make-container();
+}
+
+// product card
+.product-card .card {
+  border-radius: 0;
+  border: none;
+  background-color: $primary-color;
+  --bs-card-color: #e9ecefff;
+}
+
+.progress {
+  border-radius: 0;
+  --bs-progress-height: 1.5rem;
+  --bs-progress-bar-bg: #69A64E;
+  --bs-progress-bar-color: $background-color;
 }
