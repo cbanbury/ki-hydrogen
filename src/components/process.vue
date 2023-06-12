@@ -19,7 +19,7 @@
     <div style="background-color: #E9F3FA !important">
       <div class="container">
         <div class="row justify-content-center">
-          <ProcessSVG />
+          <img src="https://ik.imagekit.io/elementone/process.svg?updatedAt=1686605605628">
         </div>
       </div>
     </div>
@@ -27,12 +27,8 @@
 </template>
 
 <script>
-import ProcessSVG from './process-svg.vue';
 
 export default {
   name: 'Process',
-  components: {
-    ProcessSVG,
-  },
 };
 </script>

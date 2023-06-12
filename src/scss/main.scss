@@ -162,7 +162,7 @@ input {
 }
 
 .energy-block {
-  background-image: url('https://ik.imagekit.io/elementone/linus-nylund-At_r0TuqL8o-unsplash.jpg?updatedAt=1686068937303');
+  background-image: url('https://ik.imagekit.io/elementone/linus-nylund-At_r0TuqL8o-unsplash.webp?updatedAt=1686583727738');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -184,7 +184,7 @@ input {
 }
 
 .tech-highlight-block {
-  background-image: url('https://ik.imagekit.io/elementone/sergei-a--heLWtuAN3c-unsplash.jpg?updatedAt=1686065374948');
+  background-image: url('https://ik.imagekit.io/elementone/sergei-a--heLWtuAN3c-unsplash.webp?updatedAt=1686583610821');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -200,29 +200,6 @@ input {
   border: none;
   background-color: rgba($white, 0.8);
   color: $text-color;
-}
-
-.parallax {
-  /* The image used */
-  background-image: url('https://ik.imagekit.io/elementone/background-image.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1673965403739');
-  /* Set a specific height */
-  min-height: 150px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-}
-
-// disable parallax on mobile
-@media (any-pointer: coarse) {
-  .parallax {
-    background-attachment: scroll;
-  }
 }
 
 @mixin make-container($padding-x: $container-padding-x) {

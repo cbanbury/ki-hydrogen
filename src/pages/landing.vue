@@ -8,6 +8,7 @@
       <img
         height="300"
         width="300"
+        alt="Ki Hydrogen"
         src="https://ik.imagekit.io/elementone/kih2_horizontal_green.png?ik-sdk-version=javascript-1.4.3&updatedAt=1675296186591"
       />
       <div style="position: relative; top: -50px;">

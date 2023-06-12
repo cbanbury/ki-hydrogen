@@ -11,6 +11,7 @@
           <a
             target="_blank"
             :href="cta.url"
+            :aria-label="cta.text"
           ><font-awesome-icon
             class="fa-6x"
             icon="fa-solid fa-circle-play"
@@ -19,11 +20,11 @@
         </div>
       </div>
       <div class="row">
-        <dlv class="col">
+        <div class="col">
           <h2 align="center">
             {{ subtitle }}
           </h2>
-        </dlv>
+        </div>
       </div>
     </div>
   </div>
