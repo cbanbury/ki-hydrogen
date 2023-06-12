@@ -26,7 +26,7 @@
       class="header-gradient"
     ></div>
     <Jumbotron />
-    <Supporters />
+    <!-- <Supporters /> -->
     <Problem />
     <EnergyProblem />
     <BiomassElectrolysis />
@@ -46,7 +46,7 @@ import SocialIcons from '../components/social-icons.vue';
 import Products from '../components/products.vue';
 import Process from '../components/process.vue';
 import Jumbotron from '../components/jumbotron.vue';
-import Supporters from '../components/supporters.vue';
+// import Supporters from '../components/supporters.vue';
 import Problem from '../components/problem.vue';
 import EnergyProblem from '../components/energy-problem.vue';
 import BiomassElectrolysis from '../components/biomass-electrolysis.vue';
@@ -56,7 +56,7 @@ export default {
   name: 'LandingPage',
   components: {
     Jumbotron,
-    Supporters,
+    // Supporters,
     Problem,
     SocialIcons,
     Products,

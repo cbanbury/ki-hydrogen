@@ -88,10 +88,6 @@ h3 {
   color: $alert-color !important;
 }
 
-.alert-small {
-  color: $alert-color !important;
-}
-
 // cookie consent
 .cookie-consent-message {
   color: $light !important;
@@ -175,11 +171,16 @@ input {
   -o-background-size: cover;
 }
 
+.energy-block h1 .fa {
+  color: $alert-color !important;
+}
+
 .energy-block .card {
   border-radius: 0;
   border: none;
   background-color: rgba($white, 0.8);
   color: $text-color;
+  margin-bottom: 40px
 }
 
 .tech-highlight-block {
@@ -250,4 +251,9 @@ input {
   --bs-progress-height: 1.5rem;
   --bs-progress-bar-bg: #69A64E;
   --bs-progress-bar-color: $background-color;
+}
+
+// biomass electrolysis section
+.biomass-electrolysis .fa {
+  color: $accent-color !important;
 }

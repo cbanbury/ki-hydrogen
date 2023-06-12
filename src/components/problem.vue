@@ -14,7 +14,7 @@
         </h2>
       </div>
     </div>
-    <div class="row pt-2 justify-content-center">
+    <div class="row pt-2 pb-4 justify-content-center">
       <div class="col-sm-12 col-md-6">
         <p align="center">
           {{ text1 }}

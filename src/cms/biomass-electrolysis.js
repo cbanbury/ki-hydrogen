@@ -6,7 +6,7 @@ export default {
     {
       title: 'Flexible',
       icon: 'https://ik.imagekit.io/elementone/solar-energy__1_.png?updatedAt=1686066076532',
-      text: 'Hydrogen is the only gas we produce, allowing for greater safety and compatibility with renewable power.',
+      text: "We don't produce hydrogen/oxygen mixtures, allowing for greater safety and compatibility with renewable power.",
     },
     {
       title: 'Cheap',

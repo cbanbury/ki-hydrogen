@@ -2,9 +2,9 @@
   <div class="jumbotron">
     <div class="container pb-4 pt-4">
       <div class="row">
-        <dlv class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6">
           <h1>{{ title }}</h1>
-        </dlv>
+        </div>
       </div>
       <div class="row justify-content-center">
         <div class="col text-center">

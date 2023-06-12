@@ -23,7 +23,11 @@
             align="center"
             class="header"
           >
-            75%
+          <font-awesome-icon
+        class="fa"
+        icon="fa-bolt-lightning"
+      />
+           75%
           </h1>
           <h1
             align="center"

@@ -13,14 +13,52 @@
           <div class="card">
             <div class="row p-4">
               <div class="col col-md-6 my-auto">
-                <h1
+                <div class="row">
+                  <div class="col">
+                    <h1
+                    class="callout"
                   align="center"
                   v-html="callout"
                 ></h1>
-                <h1
+                  </div>
+                </div>
+                <div class="row">
+                  <h1
+                  class="callout"
+                  align="center">
+                    <font-awesome-icon
+        class="fa px-2"
+        icon="fa-bolt-lightning"
+      />
+
+      <font-awesome-icon
+        class="fa px-2"
+        icon="fa-wind-turbine"
+      />
+
+
+      <font-awesome-icon
+        class="fa px-2"
+        icon="fa-bolt-lightning"
+      />
+
+
+      <font-awesome-icon
+        class="fa px-2"
+        icon="fa-bolt-lightning"
+      />
+                  </h1>
+                </div>
+                    
+                  <!-- <div class="row justify-content-center"> -->
+                  <div class="row">
+                    <div class="col">
+                      <h1
                   align="center"
                   v-html="callout2"
                 ></h1>
+                    </div>
+                  </div>
               </div>
               <div class="col col-md-6">
                 <p
