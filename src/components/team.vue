@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="row mt-4">
-      <div class="col-auto">
+      <div class="col text-center text-md-start">
         <h1
           class="header"
           v-html="title"
@@ -10,8 +10,9 @@
       </div>
     </div>
     <div class="row">
-      <p v-html="background">
-      </p>
+      <div class="col">
+        <p v-html="background"></p>
+      </div>
     </div>
     <div class="row">
       <div

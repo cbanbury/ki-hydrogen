@@ -11,12 +11,12 @@ export default {
     {
       title: 'Cheap',
       icon: 'https://ik.imagekit.io/elementone/salary.png?updatedAt=1686233292207',
-      text: 'Cost competitive green hydrogen down to <strong>$2 / kg</strong> without relying on subsidies or curtailed electricity prices.',
+      text: '<p>Cost competitive green hydrogen down to</p><h2><strong>$2 / kg</strong></h2><p>even accounting for electricity prices of $70 / MWh</p>',
     },
     {
       title: 'Scalable',
       icon: 'https://ik.imagekit.io/elementone/modular__1_.png?updatedAt=1686066076559',
-      text: 'Building on modular systems, without the need for precious metals our technology is inherently scalable.',
+      text: 'Our technology is compatible with modular alkaline/AEM systems without the need for precious metals.',
     },
   ],
 };

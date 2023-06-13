@@ -33,8 +33,8 @@ body, html {
 
 .header-gradient {
   background: linear-gradient($accent-color, $primary-color);
-  height: 340px;
-  margin-top: -340px;
+  height: 300px;
+  margin-top: -300px;
 }
 
 .jumbotron {
@@ -113,23 +113,23 @@ h3 {
   background-color: $background-color !important;
   border: 0px;
   border-radius: 0;
-  position: -webkit-sticky;
-  position: sticky;
+  // position: -webkit-sticky;
+  // position: sticky;
   top: -240px;
   z-index: 99999;
   margin: 0 auto;
-  height: 340px;
+  height: 300px;
   width: 300px;
 }
 
 .footer {
   background-color: $primary-color !important;
-  
+  color: $background-color !important;
 }
 
-.footer .navbar-text {
-  color: $background-color !important; 
-}
+// .footer .navbar-text {
+//   color: $background-color !important; 
+// }
 
 .btn-dark:hover {
   background-color: $primary-color;
@@ -137,11 +137,11 @@ h3 {
 }
 
 a {
-  color: $text-color;
+  color: $background-color;
 }
 
 a:hover {
-  color: $primary-color;
+  color: $accent-color !important;
 }
 
 
@@ -233,4 +233,19 @@ input {
 // biomass electrolysis section
 .biomass-electrolysis .fa {
   color: $accent-color !important;
+}
+
+.fa-bolt {
+  vertical-align: -15%;
+}
+
+.contact-us {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.navbar .navbar-brand {
+  padding-top: 0px;
+}
+.navbar .navbar-brand img {
+  height: 50px;
 }

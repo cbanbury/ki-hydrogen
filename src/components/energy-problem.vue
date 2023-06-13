@@ -2,7 +2,7 @@
   <div class="energy-block pt-4 pb-4">
     <div class="container mt-4">
       <div class="row justify-content-center">
-        <div class="col-auto pb-4">
+        <div class="col-auto pb-4 text-center">
           <h1 class="header">
             {{ title }}
           </h1>
@@ -14,10 +14,13 @@
             <div class="row p-4 h-100">
               <div class="col col-md-6 my-auto">
                 <div class="text-center">
-                  <img width="128" src="https://ik.imagekit.io/elementone/speedometer__1_.png?updatedAt=1686607229204">
+                  <img
+                    width="128"
+                    src="https://ik.imagekit.io/elementone/speedometer__1_.png?updatedAt=1686607229204"
+                  />
                 </div>
               </div>
-              <div class="col col-md-6">
+              <div class="col col-md-6 text-center text-md-start">
                 <p
                   class="card-text"
                   v-html="text"

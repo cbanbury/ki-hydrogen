@@ -9,91 +9,46 @@
     </div>
     <div
       id="carouselExampleAutoplaying"
-      class="carousel slide"
+      class="carousel slide d-md-none d-lg-none"
       data-bs-ride="carousel"
+      data-bs-interval="2000"
     >
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="..."
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="..."
-            class="d-block w-100"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="..."
-            class="d-block w-100"
-            alt="..."
-          />
+        <div
+          v-for="supporter in supporters"
+          class="carousel-item"
+          :class="supporter.status"
+        >
+          <a
+            class="d-flex justify-content-center"
+            :href="supporter.url"
+            target="_blank"
+          >
+            <img
+              :src="supporter.logo"
+              class="d-block"
+              :alt="supporter.name"
+              height="60"
+            />
+          </a>
         </div>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev"
-      >
-        <span
-          class="carousel-control-prev-icon"
-          aria-hidden="true"
-        ></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next"
-      >
-        <span
-          class="carousel-control-next-icon"
-          aria-hidden="true"
-        ></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
 
     <div class="row pt-2 d-none d-md-flex">
-      <div class="col text-end">
+      <div
+        v-for="supporter in supporters"
+        class="col text-center"
+      >
         <a
-          href="https://carbonthirteen.com/"
+          :href="supporter.url"
           target="_blank"
           class="text-center"
         >
           <img
             height="75"
-            src="https://ik.imagekit.io/elementone/carbon13-logo.webp?updatedAt=1686069247946"
-            alt="Carbon13"
-          />
-        </a>
-      </div>
-      <div class="col text-center">
-        <a
-          href="https://www.imperial.ac.uk/climate-change-innovation/the-greenhouse/"
-          target="_blank"
-        ><img
-          height="75"
-          src="https://ik.imagekit.io/elementone/Undaunted_Greenhouse_purple-1.png?updatedAt=1686069247713"
-          alt="Undaunted, The Greenhouse"
-        /></a>
-      </div>
-      <div class="col">
-        <a
-          href="https://www.birmingham.ac.uk/research/energy/index.aspx"
-          target="_blank"
-        >
-          <img
-            height="75"
-            src="https://ik.imagekit.io/elementone/bham-energy-institute-logo.jpg?updatedAt=1686069247510"
-            alt="Birmingham Energy Institute"
+            :src="supporter.logo"
+            :alt="supporter.name"
           />
         </a>
       </div>
@@ -104,5 +59,27 @@
 <script>
 export default {
   name: 'Supporters',
+  data() {
+    return {
+      supporters: [
+        {
+          name: 'Carbon13',
+          url: 'https://carbonthirteen.com/',
+          logo: 'https://ik.imagekit.io/elementone/carbon13-logo.webp?updatedAt=1686680388058',
+        },
+        {
+          name: 'Undaunted, The Greenhouse',
+          url: 'https://www.imperial.ac.uk/climate-change-innovation/the-greenhouse/',
+          logo: 'https://ik.imagekit.io/elementone/Undaunted_Greenhouse_purple-1.png?updatedAt=1686680387837',
+          status: 'active',
+        },
+        {
+          name: 'Birmingham Energy Institute',
+          url: 'https://www.birmingham.ac.uk/research/energy/index.aspx',
+          logo: 'https://ik.imagekit.io/elementone/bham-energy-institute-logo.jpg?updatedAt=1686069247510',
+        },
+      ],
+    };
+  },
 };
 </script>

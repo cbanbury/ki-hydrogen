@@ -19,7 +19,7 @@
     <div style="background-color: #E9F3FA !important">
       <div class="container">
         <div class="row justify-content-center">
-          <img src="https://ik.imagekit.io/elementone/process.svg?updatedAt=1686605605628">
+          <img src="https://ik.imagekit.io/elementone/process.svg?updatedAt=1686605605628" />
         </div>
       </div>
     </div>

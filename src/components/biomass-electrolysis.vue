@@ -2,7 +2,7 @@
   <div class="biomass-electrolysis">
     <div class="container mt-4 pb-4">
       <div class="row">
-        <div class="col-auto">
+        <div class="col text-center text-md-start">
           <h1
             class="header"
             v-html="title"
@@ -10,7 +10,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-auto">
+        <div class="col text-center text-md-start">
           <h2
             class="header"
             v-html="subtitle"
@@ -25,7 +25,7 @@
           >
             <font-awesome-icon
               class="fa"
-              icon="fa-bolt-lightning"
+              icon="fa-bolt"
             />
             75%
           </h1>

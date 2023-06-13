@@ -1,14 +1,14 @@
 <template>
   <div class="container pt-4">
     <div class="row pt-4">
-      <div class="col">
+      <div class="col text-center text-md-start">
         <h1 class="header">
           {{ title }}
         </h1>
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="col text-center text-md-start">
         <h2 class="header">
           {{ subtitle }}
         </h2>

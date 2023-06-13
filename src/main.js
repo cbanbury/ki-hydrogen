@@ -8,14 +8,14 @@ import 'bootstrap';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
-import { faEnvelope, faCirclePlay, faBoltLightning } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faCirclePlay, faBolt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import landing from './pages/landing.vue';
 
 library.add(faLinkedin);
 library.add(faEnvelope);
 library.add(faCirclePlay);
-library.add(faBoltLightning);
+library.add(faBolt);
 
 const routes = [
   { path: '/', component: landing },
