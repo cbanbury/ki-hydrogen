@@ -6,19 +6,6 @@
           <h1>{{ title }}</h1>
         </div>
       </div>
-      <div class="row justify-content-center">
-        <div class="col text-center">
-          <a
-            target="_blank"
-            :href="cta.url"
-            :aria-label="cta.text"
-          ><font-awesome-icon
-            class="fa-6x"
-            icon="fa-solid fa-circle-play"
-          /></a>
-          <p>{{ cta.text }}</p>
-        </div>
-      </div>
       <div class="row">
         <div class="col">
           <h2 align="center">
