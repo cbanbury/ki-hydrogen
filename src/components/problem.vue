@@ -14,15 +14,15 @@
         </h2>
       </div>
     </div>
-    <div class="row pt-2 pb-4 justify-content-center">
-      <div class="col-sm-12 col-md-6">
-        <p align="center">
+    <div class="row pt-2 pb-4">
+      <div class="col col-md-8 offset-md-2">
+        <p>
           {{ text1 }}
         </p>
         <p class="text-center callout">
           Over <strong>830 million tonnes</strong> CO2
         </p>
-        <p align="center">
+        <p>
           {{ text2 }}
         </p>
       </div>

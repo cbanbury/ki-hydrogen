@@ -37,10 +37,9 @@
           </h1>
         </div>
       </div>
-      <div clas="row justify-content-center">
+      <div clas="row">
         <div
-          class="col col-md-6 offset-md-3"
-          align="center"
+          class="col col-md-8 offset-md-2"
         >
           <p v-html="text"></p>
         </div>

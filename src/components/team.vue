@@ -24,6 +24,7 @@
           :photo="member.photo"
           :title="member.title"
           :blurb="member.blurb"
+          :affiliations="member.affiliations"
         />
       </div>
     </div>

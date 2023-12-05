@@ -8,7 +8,7 @@
       </div>
       <div class="row">
         <div class="col">
-          <h2 align="center">
+          <h2>
             {{ subtitle }}
           </h2>
         </div>

@@ -1,15 +1,15 @@
 <template>
   <div class="energy-block pt-4 pb-4">
     <div class="container mt-4">
-      <div class="row justify-content-center">
-        <div class="col-auto pb-4 text-center">
+      <div class="row">
+        <div class="col pb-4">
           <h1 class="header">
             {{ title }}
           </h1>
         </div>
       </div>
       <div class="row">
-        <div class="col col-md-6 offset-md-3">
+        <div class="col col-md-8 offset-md-2">
           <div class="card">
             <div class="row p-4 h-100">
               <div class="col col-md-6 my-auto">
