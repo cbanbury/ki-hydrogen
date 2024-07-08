@@ -20,7 +20,7 @@
           {{ text1 }}
         </p>
         <p class="text-center callout">
-          Over <strong>830 million tonnes</strong> CO2
+          Over <strong>900 million tonnes</strong> CO2
         </p>
         <p>
           {{ text2 }}

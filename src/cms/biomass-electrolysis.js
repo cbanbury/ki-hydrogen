@@ -16,7 +16,7 @@ export default {
     {
       title: 'Scalable',
       icon: 'https://ik.imagekit.io/elementone/modular__1_.png?updatedAt=1686066076559',
-      text: 'Our technology is compatible with modular alkaline/AEM systems without the need for precious metals.',
+      text: 'Our technology is compatible with modern modular electrolyser components.',
     },
   ],
 };
